@@ -1,0 +1,34 @@
+#leftLogo {
+    width: 10%;
+    float: left;
+}
+
+#rightLogo {
+    width: 10%;
+    float: right;
+}
+
+#topBar {
+    width: 100%;
+}
+
+#topTopBar {
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: rgb(180, 0, 0);
+    background-color: rgb(240, 100, 120);
+}
+
+#titleContainer {
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+    font-size: 7em;
+}
+
+body {
+    width: 100%;
+}
