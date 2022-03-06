@@ -1,18 +1,18 @@
 #leftLogo {
 	height: 100%;
 	float: left;
-	min-width: 90px;
+	min-width: 80px;
 }
 
 #rightLogo {
 	height: 100%;
 	float: right;
-	min-width: 90px;
+	min-width: 80px;
 }
 
 #topBar {
 	width: 100%;
-	height: 20%;
+	height: 18%;
 }
 
 #topTopBar {
@@ -30,7 +30,7 @@
 
 #title {
 	text-align: center;
-	font-size: 5.8em;
+	font-size: 5.6em;
 	color: rgb( 0, 0, 0 );
 	margin: 0;
 }
@@ -101,7 +101,7 @@ p > a {
 }
 
 #content {
-	width: 60%;
+	width: 75%;
 	min-width: 500px;
 	margin-left: 10%;
 }
