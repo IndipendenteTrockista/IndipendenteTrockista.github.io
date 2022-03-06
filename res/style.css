@@ -91,9 +91,9 @@ p > a {
 }
 
 #content {
-	width: 75%;
+	width: 85%;
 	min-width: 500px;
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 #articlePicture {
@@ -106,8 +106,8 @@ i {
 }
 
 #bottomBar {
-	width: 80%;
-	margin-left: 10%;
+	width: 85%;
+	margin-left: 5%;
 	border-top-style: solid;
 	border-top-width: thin;
 	border-top-color: white;
@@ -125,7 +125,7 @@ div {
 
 #preview {
 	display: grid;
-	column-gap: 2%;
+	column-gap: 0.5%;
 }
 
 #prevPicture {
