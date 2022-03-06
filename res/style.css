@@ -1,12 +1,6 @@
-#leftLogo {
+#logo {
 	height: 100%;
 	float: left;
-	min-width: 80px;
-}
-
-#rightLogo {
-	height: 100%;
-	float: right;
 	min-width: 80px;
 }
 
@@ -22,10 +16,6 @@
 	border-bottom-width: 2vh;
 	border-bottom-color: rgb(120, 0, 0);
 	background-color: rgb(240, 30, 40);
-}
-
-#titleContainer {
-	width: 100%;
 }
 
 #title {
