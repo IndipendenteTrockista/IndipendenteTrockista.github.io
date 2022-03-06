@@ -5,4 +5,9 @@ function showList() {
     } else {
         list.style.display = "block";
     }
+};
+
+function goToArticleFromPreview( articleName ) {
+	var year = new Date().getFullYear();
+	window.location.href = "articoli/" + year + "/" + articleName + ".html";
 }

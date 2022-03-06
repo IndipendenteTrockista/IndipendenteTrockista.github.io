@@ -1,91 +1,150 @@
 #leftLogo {
-    height: 100%;
-    float: left;
-    min-width: 100px;
+	height: 100%;
+	float: left;
+	min-width: 90px;
 }
 
 #rightLogo {
-    height: 100%;
-    float: right;
-    min-width: 100px;
+	height: 100%;
+	float: right;
+	min-width: 90px;
 }
 
 #topBar {
-    width: 100%;
-    height: 20%;
+	width: 100%;
+	height: 20%;
 }
 
 #topTopBar {
-    width: 100%;
-    height: 16vh;
-    border-bottom: solid;
-    border-bottom-width: 2vh;
-    border-bottom-color: rgb(120, 0, 0);
-    background-color: rgb(240, 30, 40);
+	width: 100%;
+	height: 16vh;
+	border-bottom: solid;
+	border-bottom-width: 2vh;
+	border-bottom-color: rgb(120, 0, 0);
+	background-color: rgb(240, 30, 40);
 }
 
 #titleContainer {
-    width: 100%;
+	width: 100%;
 }
 
 #title {
-    text-align: center;
-    font-size: 6em;
-    color: rgb( 0, 0, 0 );
-    margin: 0;
+	text-align: center;
+	font-size: 5.8em;
+	color: rgb( 0, 0, 0 );
+	margin: 0;
 }
 
 body {
-    width: 100%;
-    margin: 0;
-    height: 100%;
-    background-color: rgb(16, 16, 16);
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	background-color: rgb(16, 16, 16);
 }
 
 #page {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 p {
-    color: white;
+	color: white;
+	font-size: 1.2em;
 }
 
 a {
-    color: goldenrod;
+	color: goldenrod;
+	font-size: 1.2em;
+}
+
+p > a {
+	font-size: 1em;
 }
 
 #topBarMenu {
-    height: 6vh;
+	height: 6vh;
 }
 
 .menuItems {
-    display: inline-block;
-    padding: 10px 30px;
-    background-color: rgb( 120, 0, 0);
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: rgb( 120, 0, 0);
 }
 
 .menuItems:hover {
-    background-color: rgb(16, 16, 16);
+	background-color: rgb(16, 16, 16);
 }
 
 #selItem {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgb(16, 16, 16);
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: rgb(16, 16, 16);
 }
 
 #topBarMenuInner {
-    margin: 0;
-    padding-left: 0;
+	margin: 0;
+	padding-left: 0;
 }
 
 #sfogliaList {
-    background-color: rgb(120, 0, 0);
-    display: none;
-    z-index: 1;
-    position: absolute;
-    padding: 1vh 2vw;
-    left: ;
-    top: 24vh;
+	background-color: rgb(120, 0, 0);
+	display: none;
+	z-index: 1;
+	position: absolute;
+	padding: 1vh 2vw;
+	left: ;
+	top: 24vh;
+}
+
+#articleTitle {
+	color: white;
+}
+
+#content {
+	width: 60%;
+	min-width: 500px;
+	margin-left: 10%;
+}
+
+#articlePicture {
+	height: 20em;
+}
+
+i {
+	color: white;
+	font-size: 1.2em;
+}
+
+#bottomBar {
+	width: 80%;
+	margin-left: 10%;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-top-color: white;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+h3 {
+	color: white;
+}
+
+div {
+	color: white;
+}
+
+#preview {
+	display: grid;
+	column-gap: 2%;
+}
+
+#prevPicture {
+	height: 10em;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+#prevText {
+	grid-column-start: 2;
+	grid-column-end: 4;
 }
