@@ -129,14 +129,13 @@ div {
 	display: grid;
 	column-gap: 1%;
 	border: solid;
-	border-color: rgb( 72, 8, 72 );
-	border-width: medium;
+	border-color: rgb( 16, 16, 16 );
+	border-width: thick;
 }
 
 .preview:hover {
 	border: solid;
-	border-color: purple;
-	border-width: thick;
+	border-color: rgb( 104, 8, 104 );
 }
 
 .prevPicture {
@@ -171,5 +170,5 @@ h2 {
 }
 
 .bottomLink:hover {
-	border-color: rgb( 72, 8, 72 );
+	border-color: rgb( 104, 8, 104 );
 }
