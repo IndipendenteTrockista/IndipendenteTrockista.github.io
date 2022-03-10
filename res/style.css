@@ -92,7 +92,8 @@ p > a {
 }
 
 #content {
-	width: 85%;
+	width: 80%;
+	max-width: 1000px;
 	min-width: 500px;
 	margin-left: 5%;
 }
@@ -124,21 +125,22 @@ div {
 	color: white;
 }
 
-#preview {
+.preview {
 	display: grid;
 	column-gap: 1%;
 }
 
-#prevPicture {
-	height: 10em;
+.prevPicture {
+	width: 20em;
 	grid-column-start: 1;
 	grid-column-end: 2;
 }
 
-#prevText {
+.prevText {
 	grid-column-start: 2;
 	grid-column-end: 4;
 	margin-top: -1.6em;
+	justify-self: start;
 }
 
 h2 {
