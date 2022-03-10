@@ -128,6 +128,15 @@ div {
 .preview {
 	display: grid;
 	column-gap: 1%;
+	border: solid;
+	border-color: rgb( 16, 16, 16 );
+	border-width: medium;
+}
+
+.preview:hover {
+	border: solid;
+	border-color: purple;
+	border-width: medium;
 }
 
 .prevPicture {
@@ -145,4 +154,22 @@ div {
 
 h2 {
 	font-size: 2em;
+}
+
+#bottomLinks {
+	border: none;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.bottomLink {
+	width: 25%;
+	text-align: center;
+	border: solid;
+	border-width: medium;
+	border-color: rgb( 16, 16, 16 );
+}
+
+.bottomLink:hover {
+	border-color: purple;
 }
