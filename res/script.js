@@ -25,3 +25,7 @@ function goToPageFromLink( postDestination ) {
 	var destination = preDestination + postDestination;
 	window.location.href = destination;
 }
+
+function goToPage( link ) {
+	window.location.href = link;
+}
