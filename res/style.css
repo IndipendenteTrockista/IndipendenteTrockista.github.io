@@ -39,12 +39,12 @@ body {
 
 p {
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 a {
 	color: goldenrod;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 p > a {
@@ -76,15 +76,16 @@ p > a {
 	padding-left: 0;
 }
 
+/*
 #sfogliaList {
 	background-color: rgb(120, 0, 0);
 	display: none;
 	z-index: 1;
 	position: absolute;
 	padding: 1vh 2vw;
-	left: ;
 	top: 24vh;
 }
+*/
 
 #articleTitle {
 	color: white;
@@ -102,7 +103,7 @@ p > a {
 
 i {
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 #bottomBar {
@@ -125,7 +126,7 @@ div {
 
 #preview {
 	display: grid;
-	column-gap: 0.5%;
+	column-gap: 1%;
 }
 
 #prevPicture {
@@ -137,4 +138,9 @@ div {
 #prevText {
 	grid-column-start: 2;
 	grid-column-end: 4;
+	margin-top: -1.6em;
+}
+
+h2 {
+	font-size: 2em;
 }
