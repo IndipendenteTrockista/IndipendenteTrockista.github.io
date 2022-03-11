@@ -134,7 +134,6 @@ div {
 }
 
 .preview:hover {
-	border: solid;
 	border-color: rgb( 104, 8, 104 );
 }
 
