@@ -171,3 +171,12 @@ h2 {
 .bottomLink:hover {
 	border-color: rgb( 104, 8, 104 );
 }
+
+h1 {
+	color: white;
+}
+
+span {
+	color: white;
+	font-size: 1.4em;
+}
