@@ -92,10 +92,10 @@ p > a {
 }
 
 #content {
-	width: 80%;
+	width: 86%;
 	max-width: 1000px;
 	min-width: 500px;
-	margin-left: 5%;
+	margin-left: 2%;
 }
 
 #articlePicture {
