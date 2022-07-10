@@ -102,8 +102,8 @@ i {
 	width: 96%;
 	margin-left: 2%;
 	border-top-style: solid;
-	border-top-width: thin;
-	border-top-color: white;
+	border-top-width: medium;
+	border-top-color: #f01e28;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
@@ -125,7 +125,7 @@ div {
 }
 
 .preview:hover {
-	border-color: rgb( 104, 8, 104 );
+	border-color: #f01e28;
 }
 
 .prevPicture {
@@ -153,14 +153,15 @@ h2 {
 
 .bottomLink {
 	width: 25%;
+	color: #f01e28;
 	text-align: center;
 	border: solid;
-	border-width: thick;
+	border-width: medium;
 	border-color: rgb(20, 20, 20);
 }
 
 .bottomLink:hover {
-	border-color: rgb( 104, 8, 104 );
+	border-color: #f01e28;
 }
 
 h1 {
@@ -189,5 +190,5 @@ details > a {
 	transform: rotate(18deg);
 	position: absolute;
 	right: 8vw;
-	top: calc(76vh - 20vw);
+	top: calc(68vh - 14vw);
 }
