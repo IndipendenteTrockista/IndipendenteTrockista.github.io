@@ -152,16 +152,20 @@ h2 {
 }
 
 .bottomLink {
-	width: 25%;
+	width: 20%;
 	color: #f01e28;
 	text-align: center;
 	border: solid;
 	border-width: medium;
 	border-color: rgb(20, 20, 20);
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	transition: 0.4s;
 }
 
 .bottomLink:hover {
 	border-color: #f01e28;
+	transition: 0.4s;
 }
 
 h1 {
@@ -191,4 +195,23 @@ details > a {
 	position: absolute;
 	right: 8vw;
 	top: calc(68vh - 14vw);
+}
+
+.libro {
+	display: grid;
+	column-gap: 1%;
+	margin-top: 1em;
+}
+
+.fotoLibro {
+	width: 12em;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	margin-top: 1em;
+}
+
+.textLibro {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	justify-self: start;
 }
