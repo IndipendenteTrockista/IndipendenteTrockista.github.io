@@ -47,12 +47,12 @@ body {
 
 p {
 	color: white;
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
 
 a {
 	color: goldenrod;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ p > a {
 
 #content {
 	width: 86%;
-	max-width: 1100px;
+	max-width: 1200px;
 	min-width: 500px;
 	margin-left: 2%;
 }
@@ -97,7 +97,7 @@ p > a {
 
 i {
 	color: white;
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
 
 #bottomBar {
@@ -144,7 +144,7 @@ div {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2.2em;
 }
 
 #bottomLinks {
@@ -172,12 +172,12 @@ h2 {
 
 h1 {
 	color: white;
-	font-size: 2.2em;
+	font-size: 2.4em;
 }
 
 span {
 	color: white;
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
 
 summary {
@@ -201,12 +201,12 @@ details > a {
 
 .libro {
 	display: grid;
-	column-gap: 1%;
+	column-gap: 4%;
 	margin-top: 1em;
 }
 
 .fotoLibro {
-	width: 12em;
+	width: 14em;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	margin-top: 1em;
@@ -219,5 +219,5 @@ details > a {
 }
 
 td {
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
