@@ -103,7 +103,7 @@ i {
 	width: 96%;
 	margin-left: 2%;
 	border-top-style: solid;
-	border-top-width: medium;
+	border-top-width: thick;
 	border-top-color: #f01e28;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -215,4 +215,20 @@ summary {
 
 td {
 	font-size: calc(1.6vh + 0.8em);
+}
+
+#ultArt {
+	color: red;
+	margin-bottom: 0.4em;
+}
+
+#lineaArt {
+	border-color: red;
+	width: 100%;
+	border-width: medium;
+	margin-left: 0;
+}
+
+.statImg {
+	width: 20vw;
 }
