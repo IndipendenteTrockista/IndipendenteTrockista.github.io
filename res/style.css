@@ -51,16 +51,11 @@ p {
 
 a {
 	color: goldenrod;
-	font-size: calc(1.5vh + 0.75em);
 	text-decoration: none;
 }
 
 p > a {
 	font-size: 1em;
-}
-
-a:hover {
-	text-decoration: underline goldenrod solid 0.2em;
 }
 
 .menuItems {
@@ -139,12 +134,13 @@ div {
 .prevText {
 	grid-column-start: 2;
 	grid-column-end: 4;
-	margin-top: -1.8em;
+	margin-top: -1em;
 	justify-self: start;
+	font-size: calc(1vh + 0.5em);
 }
 
-h2 {
-	font-size: calc(2.2vh + 1.1em);
+.prevTitle {
+	font-size: calc(2.1vh + 1.05em);
 }
 
 .bottomLink {
@@ -158,6 +154,7 @@ h2 {
 	padding-bottom: 0.6em;
 	transition: 0.4s;
 	display: inline-block;
+	font-size: calc(1.7vh + 0.85em);
 }
 
 .bottomLink:hover {
@@ -226,5 +223,10 @@ td {
 }
 
 .statImg {
-	width: 20vw;
+	width: calc(10vw + 10vh);
+}
+
+.stat {
+	display: inline-block;
+	margin-right: calc(4vw + 4vh);
 }
